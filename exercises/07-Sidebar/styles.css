@@ -1,0 +1,18 @@
+#wrapper {
+    display: flex;
+    height: 100px;
+    width: 100%;
+  }
+  
+
+  #sidebar {
+    width: 30%;
+    background: #999; 
+  }
+  
+
+  #content {
+    width: 70%;
+    background: #336633; 
+  }
+  

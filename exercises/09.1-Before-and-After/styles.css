@@ -1,0 +1,26 @@
+h1 {
+  display: inline-block;
+  font-family: serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+h1::before {
+  content: " ";
+  border-top: 45px solid transparent;
+  border-bottom: 45px solid transparent; 
+  border-right: 45px solid blue; 
+  height: 0px; 
+  margin-right: 20px;
+  display: inline-block;
+}
+  
+
+  h1::after {
+    content: " ";
+    border-top: 45px solid transparent;
+    border-bottom: 45px solid transparent; 
+    border-left: 45px solid blue; 
+    height: 0px; 
+    margin-left: 20px;
+    display: inline-block;
+  }
